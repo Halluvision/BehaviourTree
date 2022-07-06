@@ -1,0 +1,22 @@
+{
+  "name": "com.halluvision.behaviourtree",
+  "version": "0.0.1",
+  "displayName": "BehaviourTree",
+  "description": "Behaviour Tree runtime and editor with UIElements",
+  "unity": "2021.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Halluvision",
+    "email": "halluvision@gmail.com",
+    "url": ""
+  },
+  "type": "module"
+}

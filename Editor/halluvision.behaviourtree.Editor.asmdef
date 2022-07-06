@@ -1,0 +1,18 @@
+{
+    "name": "halluvision.behaviourtree.Editor",
+    "rootNamespace": "Halluvision.BehaviourTree",
+    "references": [
+        "GUID:8d178e6deaa781a4499b869191cd4f3a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

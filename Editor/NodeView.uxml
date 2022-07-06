@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="NodeViewStyle.uss" />
+    <ui:VisualElement name="node-state" />
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+    <ui:VisualElement name="node-border" picking-mode="Ignore">
+        <ui:VisualElement name="contents" picking-mode="Ignore">
+            <ui:VisualElement name="top" picking-mode="Ignore">
+                <ui:VisualElement name="input" focusable="true" />
+                <ui:VisualElement name="divider" picking-mode="Ignore" class="horizontal" />
+                <ui:VisualElement name="title" picking-mode="Ignore">
+                    <ui:Label name="title-label" text="Node" picking-mode="Ignore" class="unity-text-element unity-label" />
+                    <ui:VisualElement name="title-button-container" picking-mode="Ignore">
+                        <ui:VisualElement name="collapse-button" picking-mode="Ignore">
+                            <ui:VisualElement name="icon" picking-mode="Ignore" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label text="This is a description" display-tooltip-when-elided="true" name="description" />
+                <ui:VisualElement name="divider" picking-mode="Ignore" class="vertical" />
+                <ui:VisualElement name="output" focusable="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

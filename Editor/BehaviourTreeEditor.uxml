@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/BehaviourTree/BehaviourTree/Editor/BehaviourTreeEditor.uss?fileID=7433441132597879392&amp;guid=c1a025f767b68b74eae345bfaa096fcc&amp;type=3#BehaviourTreeEditor" />
+    <uie:Toolbar>
+        <uie:ToolbarToggle focusable="false" label="MiniMap" style="flex-direction: column; align-items: flex-start;" />
+    </uie:Toolbar>
+    <Halluvision.BehaviourTree.SplitView fixed-pane-initial-dimension="250" name="h-slipt-view">
+        <ui:VisualElement name="left-panel">
+            <Halluvision.BehaviourTree.SplitView name="v-split-view" orientation="Vertical" fixed-pane-initial-dimension="300">
+                <ui:VisualElement name="inspector-container">
+                    <ui:Label text="Inspector" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37);" />
+                    <Halluvision.BehaviourTree.InspectorView name="inspector-view" style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="blackboard-container">
+                    <ui:Label text="Blackboard" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37);" />
+                    <Halluvision.BehaviourTree.InspectorView name="blackboard-inspector-view" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </Halluvision.BehaviourTree.SplitView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel">
+            <ui:Label text="Tree View" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37);" />
+            <Halluvision.BehaviourTree.BehaviourTreeView focusable="true" name="behavior-tree-view" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </Halluvision.BehaviourTree.SplitView>
+</ui:UXML>
